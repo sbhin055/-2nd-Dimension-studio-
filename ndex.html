@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        body{
+            background-color: gray
+        }
+        h1{
+            color: aqua;
+        }
+    </style>
+    <link rel="stylesheet" href="styleofMLW.css" >   
+
+
+
+
+    <link rel="icon" type="image/jpg" herf="Untitled.jpg">
+
+
+    <title>
+        mylittelweb
+    </title>
+
+</head>
+
+
+
+<body >
+    <header style="background-color: mediumaquamarine;">
+        <h1>Welcome to mylittelweb</h1>
+        <a href=" ">Home</a>
+        <a href=" ">About Us</a>
+        <a href=" "> Contact Us</a>
+        <a href=" ">Where Us</a>
+        <hr>
+        
+    </header>
+    <h1></h1>
+    <hr>
+  
+    <img src="Untitled.jpg" alt="profile pic">
+
+    <audio controls>
+        <source src="summer-walk-152722 (1).mp3">
+    </audio>
+    <h2 id="h21">it is <i>some</i> funny word below</h2>
+    <ul>
+        <li>1 </li>
+        <li>2 </li>
+    </ul>
+    <ol>
+        <li>go to toliet</li>
+        <li>go eat lunch</li>
+    </ol>
+    <dl style="background-color:mediumaquamarine; border: 2px solid; "  >
+        <dt>food</dt>
+        <dd><span style="background-color: greenyellow;">a object can eat</span></dd>
+        <dt>dog</dt>
+        <dd><span style=" background-color: greenyellow;">a animal call "dog"</span></dd>
+    
+        <dt>book</dt>
+        <dd><span style="background-color: greenyellow;">a item can human read </span></dd>
+    </dl>
+        <hr>
+       
+       
+        <a href="https://www.youtube.com/channel/UCcODN8QM1oclPGW8z_L-sgw" 
+        target="_blank"
+        title="my youtube channel">
+    my YT channel</a>
+    <h3>opening hour</h3>
+    <table border="1" style="background-color: mediumaquamarinegg;">
+        <tr align="center">
+            <th width="100"><span style="background-color: red;">Sunday</span></th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wendnesday</th>
+            <th  width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center">
+            <td>Closed</td>
+            <td>10-6</td>
+            <td>10-6</td>
+            <td>10-6</td>
+            <td>10-6</td>
+            <td>10-6</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+    
+    <a href="my2.html">
+         <button style="font-size: 15px; background-color: azure; border-radius: 5px;">TO P.2</button>                                                                                                                                                                          
+    </a>
+    
+    <button onclick="doSome()" style="font-size: 15px; background-color:azure ; border-radius: 5px;">TO P.3</button>
+    <script>
+        function doSome(){
+            document.getElementById("pp").innerHTML= "This button doesn't fhinsh , please go on to P.#2"
+        }
+    </script>
+    <h2 id="pp"></h2>
+    
+    <p>this website is my second website i leran html at youtube and i want to say thankyou to a youtuber call 'Bro Code'
+        because he taught me how i write html code,thank you Bro Code!
+    </p>
+
+    <h3>If you want to join us , fill this form</h3>
+    <form action="ndex.php" method="post" enctype="multipart/form-data">
+
+        <label for="Username">Username:</label>  
+        <input type="text" id="Username" placeholder="Sample" minlength="5" maxlength="20" required><br>
+       
+        <label for="password">Password: </label>
+        <input type="password" id="password" minlength="7" required placeholder="1234567890"><br>
+
+        <lable for="email" >E-mail:</lable>
+        <input type="email" id="email" placeholder="mary064@gmail.com"><br>
+
+        <label for="bday">Brithday:</label>
+        <input type="date" id="bday"><br>
+
+        <label for="title">Title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="Title">
+        <label for="ms." >Ms.</label>
+        <input type="radio" id="ms." value="Ms."name="Title">
+        <label for="Dr.">Dr.</label>
+        <input type="radio" id="Dr." value="Dr."name="Title"><br>
+
+        <label for="subs">Subscribe my YT:</label>
+        <input type="checkbox" id="subs"><br>
+
+        <label for="idea">Idea:</label>
+        <textarea id="idea" rows="3" cols="25"></textarea><br>
+
+        <label for="file">Your image:</label>
+        <input type="file" id="file" accept="image/png,image/jpeg"><br>
+
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+
+    <footer style="background-color: mediumaquamarine;">
+        <hr>
+        By: SBhin055<br>
+        &copy; copyright reserved<br>
+        
+
+    </footer>
+
+
+</body>
